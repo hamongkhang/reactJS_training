@@ -1,8 +1,8 @@
+import React from "react";
 import NumberButton from "../components/keyComponent/numberButton/numberButton";
 import CalculationButton from "../components/keyComponent/calculationButton/calculationButton";
 import SpecialButton from "../components/keyComponent/specialButton/specialButton";
 import Screen from "../components/screenComponent/screenComponent";
-import React from "react";
 
 class DisplayCalculator extends React.Component {
     constructor(props) {
@@ -79,34 +79,35 @@ class DisplayCalculator extends React.Component {
                         <SpecialButton spc='AC' function={clearScreen} />
                         <SpecialButton spc='+-' function={previousPositiveNegative} />
                         <SpecialButton spc='%' function={previousPercent} />
-                        <CalculationButton cal = '/' function={previousLogic} />
+                        <CalculationButton cal='/' function={previousLogic} />
                     </div>
                     <div className="row2">
-                        <NumberButton number = '7' function={previousDigit} />
-                        <NumberButton number = '8' function={previousDigit} />
-                        <NumberButton number = '9' function={previousDigit} />
-                        <CalculationButton cal = '*' function={previousLogic} />
+                        <NumberButton number='7' function={previousDigit} />
+                        <NumberButton number='8' function={previousDigit} />
+                        <NumberButton number='9' function={previousDigit} />
+                        <CalculationButton cal='*' function={previousLogic} />
                     </div>
                     <div className="row3">
-                        <NumberButton number = '4' function={previousDigit} />
-                        <NumberButton number = '5' function={previousDigit} />
-                        <NumberButton number = '6' function={previousDigit} />
-                        <CalculationButton cal = '-' function={previousLogic} />
+                        <NumberButton number='4' function={previousDigit} />
+                        <NumberButton number='5' function={previousDigit} />
+                        <NumberButton number='6' function={previousDigit} />
+                        <CalculationButton cal='-' function={previousLogic} />
                     </div>
                     <div className="row4">
-                        <NumberButton number = '1' function={previousDigit} />
-                        <NumberButton number = '2' function={previousDigit} />
-                        <NumberButton number = '3' function={previousDigit} />
-                        <CalculationButton cal = '+' function={previousLogic} />
+                        <NumberButton number='1' function={previousDigit} />
+                        <NumberButton number='2' function={previousDigit} />
+                        <NumberButton number='3' function={previousDigit} />
+                        <CalculationButton cal='+' function={previousLogic} />
                     </div>
                     <div className="row5">
-                        <NumberButton number = '0' function={previousDigit} />
-                        <NumberButton number = '.' function={previousDot} />
-                        <CalculationButton cal = '=' function={resultCalculate} />
+                        <NumberButton number='0' function={previousDigit} />
+                        <NumberButton number='.' function={previousDot} />
+                        <CalculationButton cal='=' function={resultCalculate} />
                     </div>
                 </div>
             </div>
         )
     }
 }
+
 export default DisplayCalculator;

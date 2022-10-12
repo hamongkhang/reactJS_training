@@ -8,4 +8,5 @@ class NumberButton extends React.Component {
         )
     }
 }
+
 export default NumberButton;

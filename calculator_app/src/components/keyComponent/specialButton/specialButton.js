@@ -8,4 +8,5 @@ class SpecialButton extends React.Component {
         )
     }
 }
+
 export default SpecialButton;

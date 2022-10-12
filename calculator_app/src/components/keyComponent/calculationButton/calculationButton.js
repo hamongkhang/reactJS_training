@@ -8,4 +8,5 @@ class CalculationButton extends React.Component {
         )
     }
 }
+
 export default CalculationButton;

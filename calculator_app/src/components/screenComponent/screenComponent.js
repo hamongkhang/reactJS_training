@@ -8,4 +8,5 @@ class Screen extends React.Component {
         )
     }
 }
+
 export default Screen;
