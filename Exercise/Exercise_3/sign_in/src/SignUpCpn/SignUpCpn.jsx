@@ -19,7 +19,7 @@ const SignUpCpn = () => {
         <div className="SU">
             <SignUpUser getUserName={getUserName}/>
             <SignUpPassword getPassword={getPassword}/>
-            <SignUpButton/>
+            <SignUpButton />
         </div>
     )
 }

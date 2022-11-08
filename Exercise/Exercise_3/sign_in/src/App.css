@@ -3,22 +3,23 @@
 }
 
 .app {
-  padding:20px 0px 0px 40px;
+  padding: 20px 0px 0px 40px;
   height: 400px;
   width: 500px;
   border: 1px solid black;
 }
 
-.container{
+.container {
   padding: 200px 500px 0px 200px;
 }
-.header{
+
+.header {
   font-size: 25px;
   margin-bottom: 20px;
   border: none;
   width: 230px;
-  padding:20px 10px 20px 10px;
-  background-color:gainsboro;
+  padding: 20px 10px 20px 10px;
+  background-color: gainsboro;
 }
 
 .input {
@@ -37,16 +38,17 @@
   font-size: 15px;
   border-radius: 4px;
 }
-.check_forgot{
+
+.check_forgot {
   display: flex;
 }
 
-.forgotPassword{
+.forgotPassword {
   margin-left: 220px;
   border: none;
 }
 
-.forgotPasswordB{
+.forgotPasswordB {
   background-color: white;
   border: none;
 }
