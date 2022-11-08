@@ -17,7 +17,7 @@ const SignUpCpn = () => {
 
     return (
         <div className="SU">
-            <SignUpUser getUserName={getUserName}/>
+            <SignUpUser getUserName={getUserName} />
             <SignUpPassword getPassword={getPassword}/>
             <SignUpButton />
         </div>

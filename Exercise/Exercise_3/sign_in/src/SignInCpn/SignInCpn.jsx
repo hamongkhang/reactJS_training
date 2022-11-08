@@ -37,7 +37,7 @@ const SignInCpn = () => {
                     </Routes>
                 </div>
             </div>
-            <SignInButton SignIn={SignIn}/>
+            <SignInButton SignIn={SignIn} />
         </div>
     )
 }

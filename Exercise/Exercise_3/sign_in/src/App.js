@@ -12,7 +12,7 @@ function App() {
         <SignInHeaderButton />
         <SignUpHeaderButton />
         <Routes>
-          <Route path='/SignIn' element={<SignInCpn />} />
+          <Route path='/SignIn' element={<SignInCpn />}/>
           <Route path='/SignUp' element={<SignUpCpn />} />
         </Routes>
       </div>
