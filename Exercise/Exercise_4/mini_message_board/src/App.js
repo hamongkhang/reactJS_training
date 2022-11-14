@@ -11,7 +11,6 @@ import DisplayDate from './Components/FormDisplay/DisplayDate';
 import { useState } from 'react';
 import React from 'react';
 
-
 function App() {
   const [authorName, setAuthorName] = useState("");
   const [title, setTitle] = useState("");
@@ -22,17 +21,14 @@ function App() {
 
   const AddAuthorName = (event) => {
     setAuthorName(event.target.value);
-    console.log(authorName);
   }
 
   const AddTitle = (event) => {
     setTitle(event.target.value);
-    console.log(title);
   }
 
   const AddMessage = (event) => {
     setMessage(event.target.value);
-    console.log(message);
   }
 
   const Submit = () => {
