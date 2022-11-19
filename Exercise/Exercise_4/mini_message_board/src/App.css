@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(10, 99, 140);
+}
+
+.Input {
+  padding: 0px 0px 20px 0px;
+  width: 500px;
+  background-color: rgb(56, 140, 180);
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.submit {
+  padding: 7px 15px 7px 15px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.841);
+  color: rgb(16, 153, 198);
+  margin-left: 365px;
+  font-weight: bolder;
+}
+
+.post {
+  display: block;
+  width: 500px;
+  background-color: rgb(56, 140, 180);
+  margin-top: 50px;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+
+.message {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.tt {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.name {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.date{
+  text-align: left;
+  padding: 20px 0px 0px 20px;
+  font-size: 13px;
+}
